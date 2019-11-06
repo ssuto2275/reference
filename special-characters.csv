@@ -1,0 +1,13 @@
+character,description,Keyboard,ASCII
+\\,literal backslash
+\a,alert character,Ctrl-g,
+\b,backspace,Ctrl-h,8(BS)
+\f,formfeed,Ctrl-l,12(FF)
+\n,newline,Ctrl-j,10(LF)
+\r,carriage return,Ctrl-m,13(CR)
+\t,horizontal tab,Ctrl-i,9(HT)
+\v,vertical tab,Ctrl-k,11(VT)
+\nnn,octal nnn,,
+\xhh,hex hh,,
+\/,literal slash,
+\",literal double quote,,

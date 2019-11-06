@@ -1,0 +1,14 @@
+(…),Grouping.
+$,Field reference.
+++ --,Increment, decrement.
+^ **,Exponentiation. These operators group right to left.
++ - !,Unary plus, minus, logical “not.”
+* / %,Multiplication, division, remainder.
++ -,Addition, subtraction.
+< <= == != > >= >> | |&,all have same precedence
+~ !~,Matching or nonmatching
+in,Array membership.
+&&,Logical “and.”
+||,Logical “or.”
+?:,Conditional. This operator groups right to left
+= += -= *= /= %= ^= **=,group right to left

@@ -1,0 +1,12 @@
+awk '/li/ { print $2 }' mail-list,prints the second field of each record where the string ‘li’ appears anywhere in the record
+awk '$1 ~ /J/' inventory-shipped,selects all input records with the uppercase letter ‘J’ somewhere in the first field
+awk '{ if ($1 ~ /J/) print }' inventory-shipped,same result as previous
+exp !~ /regexp/,true if the expression exp (taken as a character string) does not match regexp
+awk '$1 !~ /J/' inventory-shipped,matches or selects all input records whose first field does not contain the uppercase letter ‘J’
+awk 'BEGIN { print "He said \"hi!\" to her." }',example of how to use escape for double quotes
+BEGIN,executed only once, before the first record is read
+END,executed only once, after all the input is read
+selector ? if-true-exp : if-false-exp,conditional statement
+awk '/edu/ && /li/' mail-list,prints all the records in mail-list that contain both ‘edu’ and ‘li’
+awk '/edu/ || /li/' mail-list,prints all records in mail-list that contain either ‘edu’ or ‘li’ (or both, of course)
+awk '! /li/' mail-list,prints all records in mail-list that do not contain the string ‘li’

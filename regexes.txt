@@ -1,0 +1,12 @@
+^,match the beginning of a string
+$,match the end of a string
+.,match any single character
+[],bracket expression - matches any of the characters inside the brackets
+[^],complemented bracket expression - match anything not inside brackets
+|,alternation operator - note this is the lowest preference (order of operations) for regexe operators
+*,repeat previous expression as many times as necessary to get a match
++,one or more matches to the previous expression
+?,match previous expression once or not at all
+{n},match exactly n times
+{n,},match n or more times
+{n,m},match n to m times (inclusive)
