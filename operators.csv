@@ -1,0 +1,28 @@
+var++,variable post-increment
+var--,variable post-decrement
+++var,variable pre-increment
+--var,variable pre-decrement
++/-,addition/subtraction
+!,logical negation
+~,bitwise negation
+**,exponentiation
+*,multiplication
+/,division
+%,modulo
+<<,bitwise shift left
+>>,bitwise shift right
+<=,less than or equal to
+>=,greater than or equal to
+>,greater than
+<,less than
+==,equality
+!=,inequality
+&,bitwise and
+^,bitwise exclusive or (XOR)
+|,bitwise or
+&&,logical and
+||,logical or
+|=,bitwise or-equal
+^=,bitwise XOR-equal
+>>=,right-shift-equal
+<<=,left-shift-equal
